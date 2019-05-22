@@ -6,7 +6,7 @@ use TDAmeritradeSdk\utils\CurlRequest;
 /**
 * 
 */
-class MarketHours extends CurlRequest
+class GetQuote extends CurlRequest
 {
 	public function get(array $data)
 	{
