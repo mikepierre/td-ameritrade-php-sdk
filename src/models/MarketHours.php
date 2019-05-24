@@ -3,13 +3,11 @@ namespace TDAmeritradeSdk\models;
 
 use TDAmeritradeSdk\utils\CurlRequest;
 
-/**
-* 
-*/
 class MarketHours extends CurlRequest
 {
 	public function get(array $data)
 	{
+		// Add token to param array.
 		$data['params']['token'] = $data['token'];
 
 		$result =

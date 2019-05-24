@@ -3,7 +3,7 @@ namespace TDAmeritradeSdk\models;
 
 use TDAmeritradeSdk\utils\CurlRequest;
 
-class GetQuote extends CurlRequest
+class PriceHistory extends CurlRequest
 {
 	public function get(array $data)
 	{
